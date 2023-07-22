@@ -12,10 +12,21 @@
     <link rel="stylesheet" href="./css/cursor.css" />
     <link rel="stylesheet" href="./css/grid.css" />
     <link rel="stylesheet" href="./css/spaces.css" />
+    <link rel="stylesheet" href="./css/buttons.css" />
+    <link rel="stylesheet" href="./css/size.css" />
 
     <!-- GENERAL COMPONENTS -->
     <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/footer.css" />
+
+    <!-- SPECIFIC COMPONENTS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css"
+    />
+
+    <!-- SPECIFIC PAGE -->
+    <link rel="stylesheet" href="./css/index.css" />
 
     <title>Snake Coders</title>
   </head>
@@ -56,7 +67,101 @@
       </div>
     </header>
 
-    <main></main>
+    <div class="container--fluid">
+      <div id="slider-banner">
+        <div class="slider-banner__slide slider-banner__slide--1">
+          <div class="slider-banner__slide--1__content">
+            <h1
+              class="slider-banner__slide--1__content__title text-align-center"
+            >
+              El sitio oficial del juego SNAKE 2.0
+            </h1>
+            <div class="flex align-items-center flex-column gap-3">
+              <button
+                class="c-button cursor-pointer c-button--banner-home--slide--1__juega justify-content-center w-fit-content"
+              >
+                Juega ahora
+              </button>
+              <button
+                class="c-button cursor-pointer c-button--banner-home--slide--1__conocenos justify-content-center w-fit-content"
+              >
+                Conoce más
+              </button>
+            </div>
+          </div>
+          <div class="slider-banner__slide--1__img"></div>
+        </div>
+        <div class="slider-banner__slide slider-banner__slide--1">
+          <div class="slider-banner__slide--1__content">hola</div>
+          <div class="slider-banner__slide--1__img"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container--1240 s-bg-linear-notices">
+      <h2 class="text-align-center">Últimas Noticias</h2>
+      <div id="slider-notices">
+        <div class="flex gap-4">
+          <div class="s-card flex-column justify-content-center w-100">
+            <div class="c-card__header flex justify-content-center pt-3">
+              <img src="/img/ninios.jpg" alt="" />
+            </div>
+            <div class="c-card__body">
+              <p class="p-3 text-align-center s-bg-yellow">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident at eos beatae nam mollitia velit quisquam omnis iusto
+                voluptates eaque?
+              </p>
+            </div>
+            <div class="c-card__footer flex justify-content-center pb-3">
+              <button
+                class="c-button cursor-pointer c-button--yellow font-bold"
+              >
+                Ver más
+              </button>
+            </div>
+          </div>
+          <div class="s-card flex-column justify-content-center w-100">
+            <div class="c-card__header flex justify-content-center pt-3">
+              <img src="/img/ninios.jpg" alt="" />
+            </div>
+            <div class="c-card__body">
+              <p class="p-3 text-align-center s-bg-yellow">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident at eos beatae nam mollitia velit quisquam omnis iusto
+                voluptates eaque?
+              </p>
+            </div>
+            <div class="c-card__footer flex justify-content-center pb-3">
+              <button
+                class="c-button cursor-pointer c-button--yellow font-bold"
+              >
+                Ver más
+              </button>
+            </div>
+          </div>
+          <div class="s-card flex-column justify-content-center w-100">
+            <div class="c-card__header flex justify-content-center pt-3">
+              <img src="/img/ninios.jpg" alt="" />
+            </div>
+            <div class="c-card__body">
+              <p class="p-3 text-align-center s-bg-yellow">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Provident at eos beatae nam mollitia velit quisquam omnis iusto
+                voluptates eaque?
+              </p>
+            </div>
+            <div class="c-card__footer flex justify-content-center pb-3">
+              <button
+                class="c-button cursor-pointer c-button--yellow font-bold"
+              >
+                Ver más
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <footer class="c-footer p-3">
       <div class="row flex-column">
@@ -68,5 +173,14 @@
         </p>
       </div>
     </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="./js/index.js"></script>
   </body>
 </html>

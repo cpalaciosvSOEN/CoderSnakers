@@ -1,0 +1,18 @@
+.c-button {
+  padding: 10px 20px;
+  font-size: 20px;
+  display: flex;
+  border: none;
+  border-radius: 5px;
+  transition: transform 0.1s ease-in-out;
+}
+
+/* active */
+.c-button:active {
+  transform: scale(0.95);
+}
+
+.c-button--yellow {
+  background-color: #f7c300;
+  color: #10003d;
+}

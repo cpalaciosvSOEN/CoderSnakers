@@ -1,0 +1,97 @@
+body {
+  background-color: #00afcc;
+}
+
+.bx-wrapper {
+  border: 0;
+  background-color: transparent;
+  box-shadow: none;
+}
+
+.slider-banner__slide--1 {
+  position: relative;
+}
+
+.slider-banner__slide--1__content {
+  position: absolute;
+  right: 50px;
+
+  background-color: rgba(35, 1, 131, 0.5);
+  border-radius: 10px;
+  box-shadow: rgba(35, 1, 131, 0.5) 4px 4px 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 350px;
+  max-width: 405px;
+  top: 50px;
+  padding: 30px;
+}
+
+/* estilos para tamaños de pantallas menores a 500 */
+@media (max-width: 500px) {
+  .slider-banner__slide--1__content {
+    right: 20px;
+    left: 20px;
+  }
+}
+
+.slider-banner__slide--1__img {
+  background-image: url("../img/Frame 1007.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+.slider-banner__slide--1__content__title {
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  text-shadow: rgba(35, 1, 131, 0.9) 4px 4px 10px;
+}
+
+.c-button--banner-home--slide--1__juega {
+  background-color: white;
+  font-size: 20px;
+  color: #1e1e1e;
+  font-weight: bold;
+  transition: background-color 0.1s ease-in-out, color 0.1s ease-in-out,
+    transform 0.2s ease-in-out;
+}
+
+.c-button--banner-home--slide--1__juega:hover {
+  transform: scale(1.15);
+  background-color: #4ef6ce;
+  color: #230183;
+}
+
+.c-button--banner-home--slide--1__conocenos {
+  font-size: 15px;
+  font-weight: bold;
+  background-color: rgb(35, 1, 131);
+  color: white;
+  box-shadow: white 0px 0px 10px;
+}
+
+.s-bg-linear-notices {
+  /* background: linear-gradient(
+    rgba(35, 1, 131, 1) 0%,
+    rgba(0, 175, 204, 1) 100%
+  ); */
+}
+
+.s-card {
+  background-color: rgba(35, 1, 131, 0.2);
+  border-radius: 10px;
+  box-shadow: rgba(35, 1, 131, 0.5) 0px 0px 10px;
+}
+
+.s-bg-yellow {
+  background-color: #f7c300;
+}
+
+.s-color-blue {
+  color: rgba(35, 1, 131);
+}
