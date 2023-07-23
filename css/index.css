@@ -82,6 +82,19 @@ body {
   ); */
 }
 
+.s-bg-enviroment {
+  background-image: url("../img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 1000px;
+}
+
+.s-bg-rocks {
+  background-image: url("../img/texture_rock.jpg");
+  background-repeat: repeat;
+}
+
 .s-card {
   background-color: rgba(35, 1, 131, 0.2);
   border-radius: 10px;
@@ -94,4 +107,10 @@ body {
 
 .s-color-blue {
   color: rgba(35, 1, 131);
+}
+
+.s-box-about-us {
+  background-color: rgba(35, 1, 131, 0.2);
+  border-radius: 10px;
+  box-shadow: rgba(35, 1, 131, 0.5) 0px 0px 10px;
 }
