@@ -22,3 +22,17 @@ body {
 main {
   height: 50vh;
 }
+
+.fondoHistoria {
+  background-color: rgb(42, 13, 115);
+  width: 100%;
+  padding: 2px;
+ }
+
+ .fondoInfo {
+  margin-left: 100px;
+  width: 80%;
+  padding: 10px;
+ }
+
+
