@@ -1,9 +1,80 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- GENERAL PROJECT -->
+    <link rel="stylesheet" href="../css/normalize.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+    <link rel="stylesheet" href="../css/font.css" />
+    <link rel="stylesheet" href="../css/text.css" />
+    <link rel="stylesheet" href="../css/cursor.css" />
+    <link rel="stylesheet" href="../css/grid.css" />
+    <link rel="stylesheet" href="../css/spaces.css" />
+    <link rel="stylesheet" href="../css/buttons.css" />
+    <link rel="stylesheet" href="../css/size.css" />
+
+    <!-- GENERAL COMPONENTS -->
+    <link rel="stylesheet" href="../css/header.css" />
+    <link rel="stylesheet" href="../css/footer.css" />
+
+    <!-- SPECIFIC COMPONENTS -->
+
+    <!-- SPECIFIC PAGE -->
+    <link rel="stylesheet" href="../css/contact-us.css" />
+
+    <title>Snake Coders</title>
+  </head>
+  <body>
+    <header class="c-header">
+      <div
+        class="row c-header__container pe-3 pl-3 justify-content-between align-items-center"
+      >
+        <!-- <img src="" alt="" /> -->
+        <a class="text-decoration-none" href="../">
+          <h1 class="c-header__logo">Snake Coders</h1>
+        </a>
+        <nav>
+          <ul class="c-header__menu flex">
+            <li class="mt-2 mb-2">
+              <a class="c-header__menu-item cursor-pointer font-bold" href="../"
+                >Home</a
+              >
+            </li>
+            <li class="mt-2 mb-2">
+              <a class="c-header__menu-item cursor-pointer font-bold" href="../about-game/"
+                >About Game</a
+              >
+            </li>
+            <li class="mt-2 mb-2">
+              <a
+                class="c-header__menu-item cursor-pointer font-bold"
+                href="../about-us/"
+                >About Us</a
+              >
+            </li>
+            <li class="mt-2 mb-2">
+              <a
+                class="c-header__menu-item cursor-pointer font-bold"
+                href="../store/"
+                >Store</a
+              >
+            </li>
+            <li class="mt-2 mb-2">
+              <a
+                class="c-header__menu-item cursor-pointer font-bold"
+                href="./"
+                >Contact Us</a
+              >
+            </li>
+        </nav>
+      </div>
+    </header>
+
     <title>Formulario de Contacto</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="contacto.css">
     <!--Icon-Font-->
     <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
 </head>
@@ -11,10 +82,16 @@
     <div class="container-form">
         <div class="info-form">
             <h2>Contáctanos</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui eligendi est voluptates quae ipsam eius, in quasi odio porro aut vel beatae aperiam.</p>
-            <a href="#"><i class="fa fa-phone"></i> 123-456-789</a>
-            <a href="#"><i class="fa fa-envelope"></i> email@tudominio.com</a>
-            <a href="#"><i class="fa fa-map-marked"></i> Ciudad, Pais</a>
+            <p>¿Tienes preguntas, sugerencias o simplemente quieres conocer más sobre nuestro emocionante 
+                juego Snake? Estamos aquí para ayudarte. No dudes en ponerte en contacto con nuestro equipo 
+                a través de los siguientes medios:
+                Rellena nuestro formulario de contacto en línea y estaremos encantados de responderte en breve. 
+                Solo necesitas proporcionar tu nombre, dirección de correo electrónico y tu mensaje. 
+                ★¡Estamos ansiosos por escucharte!★
+            </p>
+            <a href="#"><i class="fa fa-phone"></i> 111-456-789</a>
+            <a href="#"><i class="fa fa-envelope"></i> codesnakers@snake.com</a>
+            <a href="#"><i class="fa fa-map-marked"></i> Lima, Perú</a>
         </div>
         <form action="#" autocomplete="off">
             <input type="text" name="nombre" placeholder="Tu Nombre" class="campo">
@@ -23,5 +100,26 @@
             <input type="submit" name="enviar" value="Enviar Mensaje" class="btn-enviar">
         </form>
     </div>
-</body>
+
+    
+<footer class="c-footer p-3">
+      <div class="row flex-column">
+        <a class="text-decoration-none" href="index.html">
+          <h1 class="c-header__logo">Snake Coders</h1>
+        </a>
+        <p class="c-footer__copyright text-align-center">
+          Snake Coders &copy; 2023
+        </p>
+      </div>
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="../js/contact-us.js"></script>
+  </body>
 </html>
